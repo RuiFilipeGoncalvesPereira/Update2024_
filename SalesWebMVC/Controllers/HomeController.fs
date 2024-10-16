@@ -14,6 +14,7 @@ type HomeController () =
 
     member this.About () =
         this.ViewData.["Message"] <- "Your application description page."
+        this.ViewData.["Email"] <- "rui6.319@hotmail.com"
         this.View()
 
     member this.Contact () =
